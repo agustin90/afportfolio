@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agustín Fernández | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+</head>
+<body>
+    <div class="contenedor">
+        <div class="encabezado">
+            <header class="header">
+                <nav class="navbar">
+           
+                    <div class="logo">
+                        <div class="logofi">
+                            <a target="_blank" href="https://www.ing.unlp.edu.ar/home"><img src="./img/fi3.png" alt=""></a>
+                        </div>
+                        <div class="titulogo">
+                            <a href="#"> Agustín<br>Fernández</a>
+                        </div>
+                    </div>
+                    <div>
+                     <button class="nav-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button> 
+                    </div>
+                    
+                        <ul class="menu">
+                            <li><a href="#elmain"><i class="fas fa-home"></i> Bienvenidos</a></li>
+                            <li><a href="#aboutme"><i class="fas fa-user-secret"></i> Acerca de mí</a></li>
+                            <li><a href="#tecnologia"><i class="fas fa-terminal"></i> Tecnologías</a></li>
+                            <li><a href="#contactme"><i class="fas fa-address-book"></i> Contactame</a></li>
+                        </ul>
+
+
+                </nav>
+            </header>
+        </div>
+        <main class="main" id="elmain">
+                <div class="main-content">
+                    <h1>¡Hola a todxs, <span>bienvenidxs</span> a mi Web!</h1>
+                    <p>Mi nombre es Agustín. <br> ¡Soy desarrollador full-stack y esta 
+                       es mi primera página!
+                       
+                    </p>
+                   <!--- <a download href="#"> 
+                        <button class="btn-cv">Descarga mi CV</button>
+                    </a> -->
+                </div>
+                <div class="imagProf">
+                    <img src="./img/yoche.jpg" alt="imagenkeahe">
+                </div>
+        </main>    
+        <div class="about-section" id="aboutme">
+                <div class="about-img">
+                <img src="./img/yo4.jpg" alt="">
+                </div>
+                <div class="about-inf">
+                    <h2> Acerca de mí </h2>
+                    <p>Vivo en la ciudad de La Plata, soy estudiante avanzado de la carrera Ingeniería Electrónica en la Facultad de Ingeniería de la Universidad Nacional de La Plata.</p>
+                    <p>Actualmente me encuentro desarrollando mi trabajo final, relacionado con inteligencia artificial, más precisamente en el campo asociado a la detección de objetos.</p>
+                    <p>Además, me encuentro realizando el curso de Full Stack Python que brinda Codo a Codo, con el fin de poder expandir mis conocimientos y poder insertarme laboralmente en el ámbito IT.</p>
+                </div>
+        </div>
+
+        <div class="tecnologias-section" id="tecnologia">
+                    
+                    <div class="tecnologias-titulo">
+                        <h2><strong>Proyecto que realicé en la facultad</strong></h2>
+                    </div>
+                    <div class="mivideo">
+                    <iframe width="426.5" height="240" src="https://www.youtube.com/embed/O_0OJC8VQYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div> 
+                    
+            <div class="tecnologias-titulo">
+                <h2><strong>Tecnologías que utilizo</strong></h2>
+            </div>
+            <div class="tecnologias">
+                <div class="html">
+                    <a target="_blank" href="https://developer.mozilla.org/es/docs/Web/HTML"><img src="./img/tecnologias/html.png" alt=""></a>
+                </div>
+                <div class="css">
+                    <a target="_blank" href="https://developer.mozilla.org/es/docs/Web/CSS"><img src="./img/tecnologias/css.png" alt="" ></a>
+                </div>
+                <div class="js">
+                    <a target="_blank" href="https://developer.mozilla.org/es/docs/Web/JavaScript"><img src="./img/tecnologias/js.png" alt=""></a>
+                </div>
+                <div class="vue">
+                    <a target="_blank" href="https://vuejs.org/"><img src="./img/tecnologias/vue.png" alt=""></a>
+                </div>
+                <div class="bootstrap">
+                   <a target="_blank" href="https://getbootstrap.com/"><img src="./img/tecnologias/bootstrap2.png" alt=""></a>
+                </div>
+                <div class="python">
+                    <a target="_blank" href="https://www.python.org/"><img src="./img/tecnologias/python2.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+            
+
+            <div class="formulario" id="contactme">
+            <section class="form-contact">
+                <header class="form-header">
+                  <span>
+                    <!-- <i class="fa fa-paper-plane" aria-hidden="true"></i> -->
+                    <i class="fas fa-envelope" aria-hidden="true"></i>
+                    <h4>Contactame</h4>
+                  </span>
+                </header>
+            
+                <form action="" name="formulario" class="contact" method="POST">
+                  <label for="nombres">Nombre y apellido</label>
+                  <input type="text" name="nombres" id="nombres">
+            
+                  <label for="correo">Correo electrónico</label>
+                  <input type="text" name="correo" id="correo">
+            
+                  <label for="cel">Número de celular</label>
+                  <input type="text" name="celular" id="celular">
+            
+                  <label for="mensaje">Mensaje</label>
+                  <textarea name="mensaje" id="mensaje"></textarea>
+                  <input type="submit" name="btn" id="btn" value="Enviar">
+            
+            
+                </form>
+              </section>
+            </div>
+            <footer class="footer">
+
+                <span class="span-footer"></span>
+                <span class="span-footer2"></span>
+                <span class="span-footer3"></span>
+                <span class="span-footer4"></span>
+                <span class="span-footer5"></span>
+                <span class="span-footer6"></span>
+                
+                <div class="footer-content">
+                    <h2><strong>Mis redes</strong></h2>
+                </div>
+                <div class="redes-sociales">
+                    <a target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                    <a target="_blank" href="https://stackoverflow.com/"><i class="fab fa-stack-overflow"></i></a>
+                    <a target="_blank" href="https://github.com/"><i class="fab fa-github"></i></a>
+                    <!-- <a target="_blank" href="https://www.youtube.com/channel/UCcRKetzRT-jz6L9p_lJk6Hw"><i class="fab fa-youtube"></i></a> -->
+                </div>
+            </footer>
+    </div>
+
+    
+    </div>
+    <script src="./js/tpo.js"></script>
+</body>
+
+</html>
